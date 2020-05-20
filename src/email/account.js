@@ -7,6 +7,7 @@ const sendWellcomeEmail = (email, name) => {
         from: 'behaylugule@gmail.com',
         subject: 'this is my first email',
         text: `${name} wellcome to task manager.thanks for using our app`
+
     })
 }
 const sendCancelationEmail = (email, name) => {
